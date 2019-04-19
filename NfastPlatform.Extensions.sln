@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NfastPlatform.Extensions", "NfastPlatform.Extensions\NfastPlatform.Extensions.csproj", "{F13D7B28-EAA7-4853-B1FB-FBCDA6F8BD85}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C26B5D9-A421-46E8-B5F5-E0738D49AD32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NfastPlatform.Extensions", "src\NfastPlatform.Extensions\NfastPlatform.Extensions.csproj", "{F13D7B28-EAA7-4853-B1FB-FBCDA6F8BD85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F13D7B28-EAA7-4853-B1FB-FBCDA6F8BD85} = {3C26B5D9-A421-46E8-B5F5-E0738D49AD32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEF9CB84-AF3D-4299-A895-B54FF2B18F92}
